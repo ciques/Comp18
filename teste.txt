@@ -1,0 +1,37 @@
+/*
+	Compiladores - Prof. Marcelo Johann
+
+	Gustavo Rosa
+	Rafael Allegretti
+*/
+
+/* 
+	comentario
+	com mais
+	de uma linha
+*/
+
+// VARIÁVEIS
+char char = 'a';
+char _char = 'b';
+int int = 42;
+float float = 0.5;
+// int int2 = 7.7;
+// char char2 = "string";
+
+int diferenca = 0;
+int v1=3;
+int v2=5;
+
+if (v1 < v2) then
+	diferenca = v2 - v1;
+else
+	diferenca = v1 - v2;
+
+print ("Diferenca: %d", diferenca);
+
+while(int > 30) {
+	int = int-1;
+}
+
+print("int: %d", int);
